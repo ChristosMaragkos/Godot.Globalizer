@@ -122,7 +122,6 @@ public sealed class GlobalWrapperGenerator : IIncrementalGenerator
         if (globalClassAttr is not null) sb.AppendLine("[GlobalClass]");
         sb.Append("public partial class ").Append(wrapperName).Append(" : ").Append(baseType).AppendLine();
         sb.AppendLine("{");
-        sb.Append("    public static ").Append(wrapperName).Append(" Create() => new ").Append(wrapperName).Append("();");
         sb.AppendLine();
         sb.AppendLine("}");
         ctx.AddSource(wrapperName + ".g.cs", sb.ToString());
