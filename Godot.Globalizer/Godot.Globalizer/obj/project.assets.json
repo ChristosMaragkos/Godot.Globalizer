@@ -573,14 +573,14 @@
           }
         }
       },
-      "Godot.Globalizer.Abstractions/0.1.0": {
+      "GDExternalGlobalizer.Abstractions/0.1.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Godot.Globalizer.Abstractions.dll": {}
+          "bin/placeholder/GDExternalGlobalizer.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Godot.Globalizer.Abstractions.dll": {}
+          "bin/placeholder/GDExternalGlobalizer.Abstractions.dll": {}
         }
       }
     }
@@ -2089,7 +2089,7 @@
         "version.txt"
       ]
     },
-    "Godot.Globalizer.Abstractions/0.1.0": {
+    "GDExternalGlobalizer.Abstractions/0.1.0": {
       "type": "project",
       "path": "../../Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj",
       "msbuildProject": "../../Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj"
@@ -2097,7 +2097,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Godot.Globalizer.Abstractions >= 0.1.0",
+      "GDExternalGlobalizer.Abstractions >= 0.1.0",
       "Microsoft.CodeAnalysis.Analyzers >= 3.3.4",
       "Microsoft.CodeAnalysis.CSharp >= 4.3.0",
       "Microsoft.CodeAnalysis.CSharp.Workspaces >= 4.3.0",
@@ -2113,7 +2113,7 @@
     "version": "0.1.0",
     "restore": {
       "projectUniqueName": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
-      "projectName": "Godot.Globalizer",
+      "projectName": "GDExternalGlobalizer",
       "projectPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
       "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
       "outputPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\obj\\",

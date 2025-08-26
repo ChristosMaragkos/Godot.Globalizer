@@ -7,12 +7,12 @@
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
         <IsRoslynComponent>true</IsRoslynComponent>
         <RootNamespace>Godot.Globalizer</RootNamespace>
-        <PackageId>Godot.Globalizer</PackageId>
+        <PackageId>GDExternalGlobalizer</PackageId>
         <Version>0.1.0</Version>
         <Authors>YourName</Authors>
         <Description>Source generator that creates [GlobalClass] Godot wrapper nodes for classes annotated with [GlobalizerWrap].</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <RepositoryUrl>https://example.com/yourrepo</RepositoryUrl>
+        <RepositoryUrl>https://ChristosMaragkos/Godot.Globalizer</RepositoryUrl>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>

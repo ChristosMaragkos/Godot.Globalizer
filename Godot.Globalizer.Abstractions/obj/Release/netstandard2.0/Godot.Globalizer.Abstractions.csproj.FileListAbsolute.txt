@@ -8,3 +8,4 @@ D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Rel
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Release\netstandard2.0\Godot.Globalizer.Abstractions.csproj.CoreCompileInputs.cache
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Release\netstandard2.0\Godot.Globalizer.Abstractions.dll
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Release\netstandard2.0\Godot.Globalizer.Abstractions.pdb
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Release\netstandard2.0\Godot.Globalizer.Abstractions.sourcelink.json

@@ -487,29 +487,29 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "Godot.Globalizer/0.1.0": {
+      "GDExternalGlobalizer/0.1.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Godot.Globalizer.Abstractions": "0.1.0",
+          "GDExternalGlobalizer.Abstractions": "0.1.0",
           "Microsoft.CodeAnalysis.CSharp": "4.3.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.3.0"
         },
         "compile": {
-          "bin/placeholder/Godot.Globalizer.dll": {}
+          "bin/placeholder/GDExternalGlobalizer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Godot.Globalizer.dll": {}
+          "bin/placeholder/GDExternalGlobalizer.dll": {}
         }
       },
-      "Godot.Globalizer.Abstractions/0.1.0": {
+      "GDExternalGlobalizer.Abstractions/0.1.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Godot.Globalizer.Abstractions.dll": {}
+          "bin/placeholder/GDExternalGlobalizer.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Godot.Globalizer.Abstractions.dll": {}
+          "bin/placeholder/GDExternalGlobalizer.Abstractions.dll": {}
         }
       }
     }
@@ -1663,12 +1663,12 @@
         "version.txt"
       ]
     },
-    "Godot.Globalizer/0.1.0": {
+    "GDExternalGlobalizer/0.1.0": {
       "type": "project",
       "path": "../Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj",
       "msbuildProject": "../Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj"
     },
-    "Godot.Globalizer.Abstractions/0.1.0": {
+    "GDExternalGlobalizer.Abstractions/0.1.0": {
       "type": "project",
       "path": "../Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj",
       "msbuildProject": "../Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj"
@@ -1676,7 +1676,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Godot.Globalizer >= 0.1.0",
+      "GDExternalGlobalizer >= 0.1.0",
       "Microsoft.CodeAnalysis.Analyzers >= 3.3.4",
       "Microsoft.CodeAnalysis.CSharp.Workspaces >= 4.3.0"
     ]

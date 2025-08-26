@@ -12,7 +12,7 @@
     <packageTypes>
       <packageType name="Analyzer" />
     </packageTypes>
-    <repository type="git" url="https://example.com/yourrepo" commit="90a1ec9fa9ee27d5f0043e5cb8a999b185c5742a" />
+    <repository type="git" url="https://example.com/yourrepo" commit="44d3a96ed1c384d46072b499ef6ca7c34561d324" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Godot.Globalizer.Abstractions" version="0.1.0" exclude="Build,Analyzers" />

@@ -8,7 +8,7 @@
       "version": "0.1.0",
       "restore": {
         "projectUniqueName": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer.Abstractions\\Godot.Globalizer.Abstractions.csproj",
-        "projectName": "Godot.Globalizer.Abstractions",
+        "projectName": "GDExternalGlobalizer.Abstractions",
         "projectPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer.Abstractions\\Godot.Globalizer.Abstractions.csproj",
         "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
         "outputPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer.Abstractions\\obj\\",
@@ -81,7 +81,7 @@
       "version": "0.1.0",
       "restore": {
         "projectUniqueName": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
-        "projectName": "Godot.Globalizer",
+        "projectName": "GDExternalGlobalizer",
         "projectPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
         "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
         "outputPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\obj\\",

@@ -82,3 +82,4 @@ D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Release\ne
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Release\net7.0\Godot.Globalizer.Tests.pdb
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Release\net7.0\Godot.Globalizer.Tests.genruntimeconfig.cache
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Release\net7.0\ref\Godot.Globalizer.Tests.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Release\net7.0\Godot.Globalizer.Tests.sourcelink.json

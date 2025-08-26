@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <PackageId>Godot.Globalizer.Abstractions</PackageId>
+    <PackageId>GDExternalGlobalizer.Abstractions</PackageId>
     <Version>0.1.0</Version>
     <Authors>Christos Maragkos</Authors>
     <Description>Attribute definitions for the Godot.Globalizer source generator.</Description>
