@@ -5,15 +5,12 @@ on:
     tags:
       - 'v*'
 
-permissions:
-  contents: read
-  packages: write
-
 jobs:
-  pack-and-publish:
+  build-pack-publish:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -21,55 +18,37 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: 8.0.x
 
       - name: Extract version from tag
         id: version
         run: |
           TAG="${GITHUB_REF##*/}"
+            # Expect TAG like v0.1.1
           VERSION="${TAG#v}"
-          echo "Version parsed: $VERSION"
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Using version: $VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Restore
-        run: dotnet restore Godot.Globalizer.sln
+        run: dotnet restore
 
-      - name: Build (Release)
-        run: dotnet build Godot.Globalizer.sln -c Release --no-restore
+      - name: Build Abstractions
+        run: dotnet build Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-restore
 
-      - name: Pack (override version)
-        run: |
-          dotnet pack Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj -c Release -o artifacts /p:PackageVersion=${{ steps.version.outputs.version }} --no-build
-          dotnet pack Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj -c Release -o artifacts /p:PackageVersion=${{ steps.version.outputs.version }} --no-build
+      - name: Pack Abstractions
+        run: dotnet pack Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-build --output ./nupkg/abstractions /p:PackageVersion=${{ steps.version.outputs.version }}
 
-      - name: Show packages
-        run: ls -1 artifacts
+      - name: Build Globalizer
+        run: dotnet build Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-restore
 
-      - name: Publish to NuGet
-        if: success()
-        env:
-          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-        run: |
-          for pkg in artifacts/*.nupkg; do
-            echo "Publishing $pkg";
-            dotnet nuget push "$pkg" \
-              --api-key "$NUGET_API_KEY" \
-              --source https://api.nuget.org/v3/index.json \
-              --skip-duplicate;
-          done
+      - name: Pack Globalizer
+        run: dotnet pack Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-build --output ./nupkg/globalizer /p:PackageVersion=${{ steps.version.outputs.version }}
 
-      - name: Publish symbol packages (optional)
-        if: success()
-        env:
-          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-        run: |
-          for spkg in artifacts/*.snupkg; do
-            echo "Publishing symbol $spkg";
-            dotnet nuget push "$spkg" \
-              --api-key "$NUGET_API_KEY" \
-              --source https://api.nuget.org/v3/index.json \
-              --skip-duplicate || true;
-          done
+      - name: Publish Abstractions to NuGet.org
+        run: dotnet nuget push ./nupkg/abstractions/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+
+      - name: Publish Globalizer to NuGet.org
+        run: dotnet nuget push ./nupkg/globalizer/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
 
       - name: Summary
         run: echo "Published version ${{ steps.version.outputs.version }}"
