@@ -9,7 +9,7 @@
     <readme>Readme.md</readme>
     <description>Source generator that creates [GlobalClass] Godot wrapper nodes for classes annotated with [GlobalizerWrap].</description>
     <tags>Godot SourceGenerator Analyzer GlobalClass Wrapper</tags>
-    <repository type="git" url="https://github.com/ChristosMaragkos/Godot.Globalizer" commit="ecb2c497d3f2cd14e862168d18377bb8bb09fb20" />
+    <repository type="git" url="https://github.com/ChristosMaragkos/Godot.Globalizer" commit="7bf29e5fe6f2b95b72190401de246b6308e6af9d" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="GDExternalGlobalizer.Abstractions" version="0.1.0" exclude="Build,Analyzers" />
