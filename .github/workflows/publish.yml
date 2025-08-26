@@ -20,15 +20,6 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Extract version from tag
-        id: version
-        run: |
-          TAG="${GITHUB_REF##*/}"
-            # Expect TAG like v0.1.1
-          VERSION="${TAG#v}"
-          echo "Using version: $VERSION"
-          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-
       - name: Restore
         run: dotnet restore
 
@@ -36,13 +27,13 @@ jobs:
         run: dotnet build Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-restore
 
       - name: Pack Abstractions
-        run: dotnet pack Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-build --output ./nupkg/abstractions /p:PackageVersion=${{ steps.version.outputs.version }}
+        run: dotnet pack Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-build --output ./nupkg/abstractions
 
       - name: Build Globalizer
         run: dotnet build Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-restore
 
       - name: Pack Globalizer
-        run: dotnet pack Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-build --output ./nupkg/globalizer /p:PackageVersion=${{ steps.version.outputs.version }}
+        run: dotnet pack Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-build --output ./nupkg/globalizer
 
       - name: Publish Abstractions to NuGet.org
         run: dotnet nuget push ./nupkg/abstractions/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
@@ -51,4 +42,4 @@ jobs:
         run: dotnet nuget push ./nupkg/globalizer/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
 
       - name: Summary
-        run: echo "Published version ${{ steps.version.outputs.version }}"
+        run: echo "Published to NuGet.org"
