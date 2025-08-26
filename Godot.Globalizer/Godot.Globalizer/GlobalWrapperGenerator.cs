@@ -55,7 +55,7 @@ public sealed class GlobalWrapperGenerator : IIncrementalGenerator
     {
         if (attrSymbol is null) return;
         var model = compilation.GetSemanticModel(cds.SyntaxTree);
-        if (model.GetDeclaredSymbol(cds) is not INamedTypeSymbol sym) return;
+        if (model.GetDeclaredSymbol(cds) is not { } sym) return;
 
         var attrData = sym.GetAttributes().FirstOrDefault(a => SymbolEqualityComparer.Default.Equals(a.AttributeClass, attrSymbol));
         if (attrData is null) return; // Not actually annotated (name match false positive)
