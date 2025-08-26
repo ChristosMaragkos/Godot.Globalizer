@@ -1,0 +1,13 @@
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\bin\Release\netstandard2.0\Godot.Globalizer.deps.json
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\bin\Release\netstandard2.0\Godot.Globalizer.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\bin\Release\netstandard2.0\Godot.Globalizer.pdb
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\bin\Release\netstandard2.0\Godot.Globalizer.Abstractions.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\bin\Release\netstandard2.0\Godot.Globalizer.Abstractions.pdb
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Globalizer.csproj.AssemblyReference.cache
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Globalizer.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Globalizer.AssemblyInfoInputs.cache
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Globalizer.AssemblyInfo.cs
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Globalizer.csproj.CoreCompileInputs.cache
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Gl.526A875B.Up2Date
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Globalizer.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Release\netstandard2.0\Godot.Globalizer.pdb
