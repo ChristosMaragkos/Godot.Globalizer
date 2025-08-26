@@ -41,7 +41,7 @@ jobs:
             --source https://api.nuget.org/v3/index.json \
             --skip-duplicate \
             --symbol-source https://api.nuget.org/v3/index.json \
-            --symbols-api-key ${{ secrets.NUGET_API_KEY }}
+            --symbol-api-key ${{ secrets.NUGET_API_KEY }}
 
       - name: Summary
         run: echo "Published all packages + symbols to NuGet.org"
