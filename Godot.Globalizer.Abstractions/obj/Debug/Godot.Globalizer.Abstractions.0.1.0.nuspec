@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <description>Attribute definitions for the Godot.Globalizer source generator.</description>
     <tags>Godot SourceGenerator Attributes GlobalClass</tags>
-    <repository type="git" url="https://github.com/ChristosMaragkos/Godot.Globalizer" commit="57d05ce4d95f45d91ab61b75548af9f3f668314c" />
+    <repository type="git" url="https://github.com/ChristosMaragkos/Godot.Globalizer" commit="90a1ec9fa9ee27d5f0043e5cb8a999b185c5742a" />
     <dependencies>
       <group targetFramework=".NETStandard2.0" />
     </dependencies>

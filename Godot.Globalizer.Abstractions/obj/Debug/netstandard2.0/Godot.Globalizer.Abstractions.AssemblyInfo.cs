@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Attribute definitions for the Godot.Globalizer source generator.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+57d05ce4d95f45d91ab61b75548af9f3f668314c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+90a1ec9fa9ee27d5f0043e5cb8a999b185c5742a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Godot.Globalizer.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Godot.Globalizer.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]
