@@ -1,25 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
-        <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
-        <IsRoslynComponent>true</IsRoslynComponent>
         <RootNamespace>Godot.Globalizer</RootNamespace>
         <PackageId>GDExternalGlobalizer</PackageId>
-        <Version>0.1.0</Version>
-        <Authors>YourName</Authors>
+        <Version>0.1.1</Version>
+        <Authors>Christos Maragkos</Authors>
         <Description>Source generator that creates [GlobalClass] Godot wrapper nodes for classes annotated with [GlobalizerWrap].</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <RepositoryUrl>https://ChristosMaragkos/Godot.Globalizer</RepositoryUrl>
+        <RepositoryUrl>https://github.com/ChristosMaragkos/Godot.Globalizer</RepositoryUrl>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageType>Analyzer</PackageType>
         <IsPackable>true</IsPackable>
         <PackageTags>Godot;SourceGenerator;Analyzer;GlobalClass;Wrapper</PackageTags>
     </PropertyGroup>
@@ -39,11 +35,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Properties\" />
+        <ProjectReference Include="..\..\Godot.Globalizer.Abstractions\Godot.Globalizer.Abstractions.csproj" />
     </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\..\Godot.Globalizer.Abstractions\Godot.Globalizer.Abstractions.csproj" />
-    </ItemGroup>
-
 </Project>

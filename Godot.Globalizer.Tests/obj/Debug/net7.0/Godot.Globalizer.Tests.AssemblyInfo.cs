@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Godot.Globalizer.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44d3a96ed1c384d46072b499ef6ca7c34561d324")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbc6a5880d1a9e5c0fd790b399665d4d109f4044")]
 [assembly: System.Reflection.AssemblyProductAttribute("Godot.Globalizer.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Godot.Globalizer.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
