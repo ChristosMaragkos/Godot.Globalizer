@@ -80,3 +80,6 @@ D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Debug\net7
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Debug\net7.0\Godot.Globalizer.Tests.pdb
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Debug\net7.0\Godot.Globalizer.Tests.genruntimeconfig.cache
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Debug\net7.0\ref\Godot.Globalizer.Tests.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\obj\Debug\net7.0\Godot.Globalizer.Tests.sourcelink.json
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\bin\Debug\net7.0\Godot.Globalizer.Abstractions.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Tests\bin\Debug\net7.0\Godot.Globalizer.Abstractions.pdb

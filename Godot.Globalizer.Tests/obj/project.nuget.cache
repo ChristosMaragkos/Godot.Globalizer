@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ODdWeYFf604=",
+  "dgSpecHash": "4BsStGopfQo=",
   "success": true,
   "projectFilePath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer.Tests\\Godot.Globalizer.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chris\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\Chris\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.0\\microsoft.codeanalysis.common.4.3.0.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.0\\microsoft.codeanalysis.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.3.0\\microsoft.codeanalysis.csharp.workspaces.4.3.0.nupkg.sha512",

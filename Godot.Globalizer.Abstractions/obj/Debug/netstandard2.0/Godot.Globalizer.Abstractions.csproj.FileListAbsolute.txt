@@ -1,0 +1,11 @@
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\bin\Debug\netstandard2.0\Godot.Globalizer.Abstractions.deps.json
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\bin\Debug\netstandard2.0\Godot.Globalizer.Abstractions.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\bin\Debug\netstandard2.0\Godot.Globalizer.Abstractions.pdb
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.csproj.AssemblyReference.cache
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.AssemblyInfoInputs.cache
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.AssemblyInfo.cs
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.csproj.CoreCompileInputs.cache
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.sourcelink.json
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\obj\Debug\netstandard2.0\Godot.Globalizer.Abstractions.pdb

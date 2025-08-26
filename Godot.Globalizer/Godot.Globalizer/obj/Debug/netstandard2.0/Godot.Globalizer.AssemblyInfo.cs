@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Source generator that creates [GlobalClass] Godot wrapper nodes for classes annot" +
     "ated with [GlobalizerWrap]."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+57d05ce4d95f45d91ab61b75548af9f3f668314c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Godot.Globalizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Godot.Globalizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

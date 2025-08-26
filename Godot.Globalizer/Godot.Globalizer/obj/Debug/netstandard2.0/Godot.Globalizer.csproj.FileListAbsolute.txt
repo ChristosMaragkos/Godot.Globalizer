@@ -8,3 +8,7 @@ D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Debug\netstandard2.0\Godot.Globalizer.csproj.CoreCompileInputs.cache
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Debug\netstandard2.0\Godot.Globalizer.dll
 D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Debug\netstandard2.0\Godot.Globalizer.pdb
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Debug\netstandard2.0\Godot.Globalizer.sourcelink.json
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\bin\Debug\netstandard2.0\Godot.Globalizer.Abstractions.dll
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\bin\Debug\netstandard2.0\Godot.Globalizer.Abstractions.pdb
+D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer\Godot.Globalizer\obj\Debug\netstandard2.0\Godot.Gl.526A875B.Up2Date

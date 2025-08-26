@@ -2,9 +2,8 @@ using System;
 
 namespace Godot;
 
-// Minimal Godot stubs so the source generator can resolve symbols.
-public class Node { }
+public class GodotObject { }
+public class Node : GodotObject { }
 
 [AttributeUsage(AttributeTargets.Class, Inherited = false)]
 public sealed class GlobalClassAttribute : Attribute { }
-
