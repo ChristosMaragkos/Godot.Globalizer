@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GDExternalGlobalizer.Generator</id>
+    <version>0.1.2</version>
+    <authors>Christos Maragkos</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>Readme.md</readme>
+    <description>Source generator that creates [GlobalClass] Godot wrapper nodes for classes annotated with [GlobalizerWrap].</description>
+    <tags>Godot SourceGenerator Analyzer GlobalClass Wrapper</tags>
+    <repository type="git" url="https://github.com/ChristosMaragkos/Godot.Globalizer" commit="ecb2c497d3f2cd14e862168d18377bb8bb09fb20" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="GDExternalGlobalizer.Abstractions" version="0.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

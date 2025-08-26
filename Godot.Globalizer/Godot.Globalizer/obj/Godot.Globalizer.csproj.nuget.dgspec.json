@@ -78,10 +78,10 @@
       }
     },
     "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj": {
-      "version": "0.1.0",
+      "version": "0.1.2",
       "restore": {
         "projectUniqueName": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
-        "projectName": "GDExternalGlobalizer",
+        "projectName": "GDExternalGlobalizer.Generator",
         "projectPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
         "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
         "outputPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\obj\\",
@@ -134,10 +134,12 @@
               "version": "[3.3.4, )"
             },
             "Microsoft.CodeAnalysis.CSharp": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[4.3.0, )"
             },
             "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[4.3.0, )"
             },

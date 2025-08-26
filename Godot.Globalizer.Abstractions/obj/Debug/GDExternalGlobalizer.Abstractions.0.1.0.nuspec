@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GDExternalGlobalizer.Abstractions</id>
+    <version>0.1.0</version>
+    <authors>Christos Maragkos</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Attribute definitions for the Godot.Globalizer source generator.</description>
+    <tags>Godot SourceGenerator Attributes GlobalClass</tags>
+    <repository type="git" url="https://github.com/ChristosMaragkos/Godot.Globalizer" commit="ecb2c497d3f2cd14e862168d18377bb8bb09fb20" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\coding projects\csharp\Godot.Globalizer\Godot.Globalizer.Abstractions\bin\Debug\netstandard2.0\Godot.Globalizer.Abstractions.dll" target="lib\netstandard2.0\Godot.Globalizer.Abstractions.dll" />
+  </files>
+</package>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kj+mbTxa30Q=",
+  "dgSpecHash": "pfLvY7A95BQ=",
   "success": true,
   "projectFilePath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,8 @@
     "C:\\Users\\Chris\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "C:\\Users\\Chris\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\Chris\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Chris\\.nuget\\packages\\gdexternalglobalizer.abstractions\\0.1.0\\gdexternalglobalizer.abstractions.0.1.0.nupkg.sha512"
   ],
   "logs": []
 }

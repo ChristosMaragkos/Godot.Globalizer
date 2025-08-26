@@ -95,15 +95,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj": {
                 "projectPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj"
@@ -124,8 +124,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.CodeAnalysis.Analyzers": {
               "suppressParent": "All",
@@ -148,38 +148,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
     "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj": {
-      "version": "0.1.0",
+      "version": "0.1.2",
       "restore": {
         "projectUniqueName": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
-        "projectName": "GDExternalGlobalizer",
+        "projectName": "GDExternalGlobalizer.Generator",
         "projectPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer.csproj",
         "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
         "outputPath": "D:\\coding projects\\csharp\\Godot.Globalizer\\Godot.Globalizer\\Godot.Globalizer\\obj\\",
@@ -232,10 +214,12 @@
               "version": "[3.3.4, )"
             },
             "Microsoft.CodeAnalysis.CSharp": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[4.3.0, )"
             },
             "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[4.3.0, )"
             },
