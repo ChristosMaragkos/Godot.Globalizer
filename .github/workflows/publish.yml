@@ -4,7 +4,6 @@ on:
   push:
     tags:
       - 'v*'
-
 jobs:
   build-pack-publish:
     runs-on: ubuntu-latest
@@ -27,19 +26,22 @@ jobs:
         run: dotnet build Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-restore
 
       - name: Pack Abstractions
-        run: dotnet pack Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-build --output ./nupkg/abstractions
+        run: dotnet pack Godot.Globalizer.Abstractions/Godot.Globalizer.Abstractions.csproj --configuration Release --no-build --output ./nupkg
 
       - name: Build Globalizer
         run: dotnet build Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-restore
 
       - name: Pack Globalizer
-        run: dotnet pack Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-build --output ./nupkg/globalizer
+        run: dotnet pack Godot.Globalizer/Godot.Globalizer/Godot.Globalizer.csproj --configuration Release --no-build --output ./nupkg
 
-      - name: Publish Abstractions to NuGet.org
-        run: dotnet nuget push ./nupkg/abstractions/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
-
-      - name: Publish Globalizer to NuGet.org
-        run: dotnet nuget push ./nupkg/globalizer/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+      - name: Publish to NuGet.org
+        run: |
+          dotnet nuget push ./nupkg/*.nupkg \
+            --api-key ${{ secrets.NUGET_API_KEY }} \
+            --source https://api.nuget.org/v3/index.json \
+            --skip-duplicate \
+            --symbol-source https://api.nuget.org/v3/index.json \
+            --symbols-api-key ${{ secrets.NUGET_API_KEY }}
 
       - name: Summary
-        run: echo "Published to NuGet.org"
+        run: echo "Published all packages + symbols to NuGet.org"
